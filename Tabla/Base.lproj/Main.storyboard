@@ -6,7 +6,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Listado de Pdf-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Tabla" customModuleProvider="target" sceneMemberID="viewController">
@@ -38,7 +38,7 @@
                             <outlet property="delegate" destination="BYZ-38-t0r" id="yc7-uy-hHh"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="7DK-x3-p0u"/>
+                    <navigationItem key="navigationItem" title="Listado de Pdf" id="7DK-x3-p0u"/>
                     <connections>
                         <segue destination="zK9-iy-0Vs" kind="show" identifier="pantalla2Segue" id="L7l-ta-pDn"/>
                     </connections>
