@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43155E4724AD34FB00B648C5 /* ViewController2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43155E4624AD34FB00B648C5 /* ViewController2ViewController.swift */; };
+		43155E4924AE931000B648C5 /* PDF in Resources */ = {isa = PBXBuildFile; fileRef = 43155E4824AE930F00B648C5 /* PDF */; };
 		4339530524ABE263000EBCD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4339530424ABE263000EBCD3 /* AppDelegate.swift */; };
 		4339530724ABE263000EBCD3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4339530624ABE263000EBCD3 /* SceneDelegate.swift */; };
 		4339530924ABE263000EBCD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4339530824ABE263000EBCD3 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		43155E4624AD34FB00B648C5 /* ViewController2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2ViewController.swift; sourceTree = "<group>"; };
+		43155E4824AE930F00B648C5 /* PDF */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PDF; sourceTree = "<group>"; };
 		4339530124ABE263000EBCD3 /* Tabla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tabla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4339530424ABE263000EBCD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4339530624ABE263000EBCD3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,10 +63,12 @@
 				4339530424ABE263000EBCD3 /* AppDelegate.swift */,
 				4339530624ABE263000EBCD3 /* SceneDelegate.swift */,
 				4339530824ABE263000EBCD3 /* ViewController.swift */,
+				43155E4624AD34FB00B648C5 /* ViewController2ViewController.swift */,
 				4339530A24ABE263000EBCD3 /* Main.storyboard */,
 				4339530D24ABE266000EBCD3 /* Assets.xcassets */,
 				4339530F24ABE266000EBCD3 /* LaunchScreen.storyboard */,
 				4339531224ABE266000EBCD3 /* Info.plist */,
+				43155E4824AE930F00B648C5 /* PDF */,
 			);
 			path = Tabla;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4339531124ABE266000EBCD3 /* LaunchScreen.storyboard in Resources */,
+				43155E4924AE931000B648C5 /* PDF in Resources */,
 				4339530E24ABE266000EBCD3 /* Assets.xcassets in Resources */,
 				4339530C24ABE263000EBCD3 /* Main.storyboard in Resources */,
 			);
@@ -140,6 +147,7 @@
 			files = (
 				4339530924ABE263000EBCD3 /* ViewController.swift in Sources */,
 				4339530524ABE263000EBCD3 /* AppDelegate.swift in Sources */,
+				43155E4724AD34FB00B648C5 /* ViewController2ViewController.swift in Sources */,
 				4339530724ABE263000EBCD3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
